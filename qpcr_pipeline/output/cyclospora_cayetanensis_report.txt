@@ -1,0 +1,470 @@
+======================================================================
+  qPCR Primer/Probe Pipeline Report
+  Target: Cyclospora cayetanensis
+  Generated: 2026-05-05 15:18 UTC
+======================================================================
+
+Total primer sets designed : 25
+Passed ALL constraints     : 2
+BLAST-validated            : 2
+
+──────────────────────────────────────────────────────────────────────
+  Pair #0  ✓ PASS  |  ROI NC_028632.1:1200-1700
+  ROI uniqueness score: 1.000
+
+  FWD  5'-AAGCTGTCTTCCTCCACGTG-3'
+       Tm=60.0°C  GC=55.0%  len=20nt
+
+  REV  5'-AAGGCGAAGATCGGTAGCTG-3'
+       Tm=59.9°C  GC=55.0%  len=20nt
+
+  PRB  5'-ACGCTCTGTCAAGCTTGCGCTCATTGCA-3'
+       Tm=65.1°C  GC=53.6%  len=28nt
+       ΔTm vs primers = +5.2°C
+
+  Amplicon size : 148 nt
+  P3 penalty    : 0.1373
+  BLAST overall : SPECIFIC ✓
+    FWD top hits:
+      ✓ [1] PV389899.1 Cyclospora          id=100.0% e=3.1e+00
+      ✓ [2] PQ357186.1 Cyclospora          id=100.0% e=1.2e+01
+      ✓ [3] PQ835031.1 Cyclospora          id=100.0% e=1.2e+01
+    REV top hits:
+      ✓ [1] PV389898.1 Cyclospora          id=100.0% e=3.1e+00
+      ✓ [2] PV389899.1 Cyclospora          id=100.0% e=3.1e+00
+      ✓ [3] PP930934.1 Cyclospora          id=100.0% e=1.2e+01
+    PRB top hits:
+      ✓ [1] PV389898.1 Cyclospora          id=100.0% e=5.4e+00
+      ✓ [2] PV389899.1 Cyclospora          id=100.0% e=5.4e+00
+      ✓ [3] PQ357187.1 Cyclospora          id=100.0% e=2.1e+01
+
+──────────────────────────────────────────────────────────────────────
+  Pair #1  ✓ PASS  |  ROI NC_028632.1:1200-1700
+  ROI uniqueness score: 1.000
+
+  FWD  5'-AAGCTGTCTTCCTCCACGTG-3'
+       Tm=60.0°C  GC=55.0%  len=20nt
+
+  REV  5'-GAAGATCGGTAGCTGCCCTG-3'
+       Tm=60.2°C  GC=60.0%  len=20nt
+
+  PRB  5'-ACGCTCTGTCAAGCTTGCGCTCATTGCA-3'
+       Tm=65.1°C  GC=53.6%  len=28nt
+       ΔTm vs primers = +5.0°C
+
+  Amplicon size : 143 nt
+  P3 penalty    : 0.2837
+  BLAST overall : SPECIFIC ✓
+    FWD top hits:
+      ✓ [1] PV389899.1 Cyclospora          id=100.0% e=3.1e+00
+      ✓ [2] PQ357186.1 Cyclospora          id=100.0% e=1.2e+01
+      ✓ [3] PQ835031.1 Cyclospora          id=100.0% e=1.2e+01
+    REV top hits:
+      ✓ [1] PP930934.1 Cyclospora          id=100.0% e=1.2e+01
+      ✓ [2] PP930935.1 Cyclospora          id=100.0% e=1.2e+01
+      ✓ [3] PP930936.1 Cyclospora          id=100.0% e=1.2e+01
+    PRB top hits:
+      ✓ [1] PV389898.1 Cyclospora          id=100.0% e=5.4e+00
+      ✓ [2] PV389899.1 Cyclospora          id=100.0% e=5.4e+00
+      ✓ [3] PQ357187.1 Cyclospora          id=100.0% e=2.1e+01
+
+──────────────────────────────────────────────────────────────────────
+  Pair #2  ✓ PASS  |  ROI NC_028632.1:1200-1700
+  ROI uniqueness score: 1.000
+
+  FWD  5'-GTCTTCCTCCACGTGACGAC-3'
+       Tm=60.4°C  GC=60.0%  len=20nt
+
+  REV  5'-AAGGCGAAGATCGGTAGCTG-3'
+       Tm=59.9°C  GC=55.0%  len=20nt
+
+  PRB  5'-GCAGAATATTCCCCACTGCAGCCTCCCGT-3'
+       Tm=65.4°C  GC=58.6%  len=29nt
+       ΔTm vs primers = +5.2°C
+
+  Amplicon size : 143 nt
+  P3 penalty    : 0.4902
+
+──────────────────────────────────────────────────────────────────────
+  Pair #0  ✓ PASS  |  ROI NC_028632.1:0-500
+  ROI uniqueness score: 1.000
+
+  FWD  5'-TTTATCCAGCCGCACCTTCC-3'
+       Tm=60.4°C  GC=55.0%  len=20nt
+
+  REV  5'-TAATCGCCGGTCAGCCTTAC-3'
+       Tm=59.9°C  GC=55.0%  len=20nt
+
+  PRB  5'-TCCCATGGTGTGACGGGCGGTGTGT-3'
+       Tm=66.0°C  GC=64.0%  len=25nt
+       ΔTm vs primers = +5.8°C
+
+  Amplicon size : 174 nt
+  P3 penalty    : 0.4974
+
+──────────────────────────────────────────────────────────────────────
+  Pair #1  ✓ PASS  |  ROI NC_028632.1:0-500
+  ROI uniqueness score: 1.000
+
+  FWD  5'-TTTATCCAGCCGCACCTTCC-3'
+       Tm=60.4°C  GC=55.0%  len=20nt
+
+  REV  5'-GTAATCGCCGGTCAGCCTTA-3'
+       Tm=59.9°C  GC=55.0%  len=20nt
+
+  PRB  5'-TCCCATGGTGTGACGGGCGGTGTGT-3'
+       Tm=66.0°C  GC=64.0%  len=25nt
+       ΔTm vs primers = +5.8°C
+
+  Amplicon size : 175 nt
+  P3 penalty    : 0.4974
+
+──────────────────────────────────────────────────────────────────────
+  Pair #4  ✓ PASS  |  ROI NC_028632.1:1200-1700
+  ROI uniqueness score: 1.000
+
+  FWD  5'-AAGCTGTCTTCCTCCACGTG-3'
+       Tm=60.0°C  GC=55.0%  len=20nt
+
+  REV  5'-GAGGCTGCAGTGGGGAATAT-3'
+       Tm=59.5°C  GC=55.0%  len=20nt
+
+  PRB  5'-ACGCTCTGTCAAGCTTGCGCTCATTGCA-3'
+       Tm=65.1°C  GC=53.6%  len=28nt
+       ΔTm vs primers = +5.4°C
+
+  Amplicon size : 73 nt
+  P3 penalty    : 0.5100
+
+──────────────────────────────────────────────────────────────────────
+  Pair #2  ✓ PASS  |  ROI NC_028632.1:0-500
+  ROI uniqueness score: 1.000
+
+  FWD  5'-AATTCCCATGGTGTGACGGG-3'
+       Tm=60.3°C  GC=55.0%  len=20nt
+
+  REV  5'-ATCGCTAGTAATCGCCGGTC-3'
+       Tm=59.8°C  GC=55.0%  len=20nt
+
+  PRB  5'-ACAAGGCCCGATGACTTATTCACCGCCGT-3'
+       Tm=65.3°C  GC=55.2%  len=29nt
+       ΔTm vs primers = +5.2°C
+
+  Amplicon size : 83 nt
+  P3 penalty    : 0.5638
+
+──────────────────────────────────────────────────────────────────────
+  Pair #0  ✓ PASS  |  ROI NC_028632.1:300-800
+  ROI uniqueness score: 1.000
+
+  FWD  5'-AATTCCCATGGTGTGACGGG-3'
+       Tm=60.3°C  GC=55.0%  len=20nt
+
+  REV  5'-ATCGCTAGTAATCGCCGGTC-3'
+       Tm=59.8°C  GC=55.0%  len=20nt
+
+  PRB  5'-ACAAGGCCCGATGACTTATTCACCGCCGT-3'
+       Tm=65.3°C  GC=55.2%  len=29nt
+       ΔTm vs primers = +5.2°C
+
+  Amplicon size : 83 nt
+  P3 penalty    : 0.5638
+
+──────────────────────────────────────────────────────────────────────
+  Pair #3  ✓ PASS  |  ROI NC_028632.1:0-500
+  ROI uniqueness score: 1.000
+
+  FWD  5'-TTTATCCAGCCGCACCTTCC-3'
+       Tm=60.4°C  GC=55.0%  len=20nt
+
+  REV  5'-ATCGCTAGTAATCGCCGGTC-3'
+       Tm=59.8°C  GC=55.0%  len=20nt
+
+  PRB  5'-TCCCATGGTGTGACGGGCGGTGTGT-3'
+       Tm=66.0°C  GC=64.0%  len=25nt
+       ΔTm vs primers = +5.9°C
+
+  Amplicon size : 182 nt
+  P3 penalty    : 0.6342
+
+──────────────────────────────────────────────────────────────────────
+  Pair #4  ✓ PASS  |  ROI NC_028632.1:0-500
+  ROI uniqueness score: 1.000
+
+  FWD  5'-CGCACCTTCCAGTACAGCTA-3'
+       Tm=59.5°C  GC=55.0%  len=20nt
+
+  REV  5'-TAATCGCCGGTCAGCCTTAC-3'
+       Tm=59.9°C  GC=55.0%  len=20nt
+
+  PRB  5'-TCCCATGGTGTGACGGGCGGTGTGT-3'
+       Tm=66.0°C  GC=64.0%  len=25nt
+       ΔTm vs primers = +6.3°C
+
+  Amplicon size : 164 nt
+  P3 penalty    : 0.6343
+
+──────────────────────────────────────────────────────────────────────
+  Pair #3  ✓ PASS  |  ROI NC_028632.1:300-800
+  ROI uniqueness score: 1.000
+
+  FWD  5'-AATTCCCATGGTGTGACGGG-3'
+       Tm=60.3°C  GC=55.0%  len=20nt
+
+  REV  5'-AATCGCTAGTAATCGCCGGT-3'
+       Tm=59.3°C  GC=50.0%  len=20nt
+
+  PRB  5'-ACAAGGCCCGATGACTTATTCACCGCCGT-3'
+       Tm=65.3°C  GC=55.2%  len=29nt
+       ΔTm vs primers = +5.5°C
+
+  Amplicon size : 84 nt
+  P3 penalty    : 0.9957
+
+──────────────────────────────────────────────────────────────────────
+  Pair #0  ✓ PASS  |  ROI NC_028632.1:900-1400
+  ROI uniqueness score: 1.000
+
+  FWD  5'-GCTTTACGCCCAGTAATTCCG-3'
+       Tm=59.7°C  GC=52.4%  len=21nt
+
+  REV  5'-CACGTGGAGGAAGACAGCTT-3'
+       Tm=60.0°C  GC=55.0%  len=20nt
+
+  PRB  5'-CCCCGTTTTACCGCGGCTGCTGGCA-3'
+       Tm=67.6°C  GC=68.0%  len=25nt
+       ΔTm vs primers = +7.8°C
+
+  Amplicon size : 154 nt
+  P3 penalty    : 1.3637
+
+──────────────────────────────────────────────────────────────────────
+  Pair #1  ✓ PASS  |  ROI NC_028632.1:900-1400
+  ROI uniqueness score: 1.000
+
+  FWD  5'-CGCTTTACGCCCAGTAATTCC-3'
+       Tm=59.7°C  GC=52.4%  len=21nt
+
+  REV  5'-CACGTGGAGGAAGACAGCTT-3'
+       Tm=60.0°C  GC=55.0%  len=20nt
+
+  PRB  5'-CCCCGTTTTACCGCGGCTGCTGGCA-3'
+       Tm=67.6°C  GC=68.0%  len=25nt
+       ΔTm vs primers = +7.8°C
+
+  Amplicon size : 155 nt
+  P3 penalty    : 1.3637
+
+──────────────────────────────────────────────────────────────────────
+  Pair #2  ✓ PASS  |  ROI NC_028632.1:900-1400
+  ROI uniqueness score: 1.000
+
+  FWD  5'-TCCGGATAACGCTTGTATCCC-3'
+       Tm=59.7°C  GC=52.4%  len=21nt
+
+  REV  5'-CACGTGGAGGAAGACAGCTT-3'
+       Tm=60.0°C  GC=55.0%  len=20nt
+
+  PRB  5'-CCGTTTTACCGCGGCTGCTGGCACG-3'
+       Tm=66.8°C  GC=68.0%  len=25nt
+       ΔTm vs primers = +7.0°C
+
+  Amplicon size : 137 nt
+  P3 penalty    : 1.3762
+
+──────────────────────────────────────────────────────────────────────
+  Pair #3  ✓ PASS  |  ROI NC_028632.1:900-1400
+  ROI uniqueness score: 1.000
+
+  FWD  5'-TTTACGCCCAGTAATTCCGGA-3'
+       Tm=59.4°C  GC=47.6%  len=21nt
+
+  REV  5'-CACGTGGAGGAAGACAGCTT-3'
+       Tm=60.0°C  GC=55.0%  len=20nt
+
+  PRB  5'-CCCCGTTTTACCGCGGCTGCTGGCA-3'
+       Tm=67.6°C  GC=68.0%  len=25nt
+       ΔTm vs primers = +7.9°C
+
+  Amplicon size : 152 nt
+  P3 penalty    : 1.5882
+
+──────────────────────────────────────────────────────────────────────
+  Pair #4  ✓ PASS  |  ROI NC_028632.1:900-1400
+  ROI uniqueness score: 1.000
+
+  FWD  5'-CCGGATAACGCTTGTATCCCC-3'
+       Tm=60.6°C  GC=57.1%  len=21nt
+
+  REV  5'-CACGTGGAGGAAGACAGCTT-3'
+       Tm=60.0°C  GC=55.0%  len=20nt
+
+  PRB  5'-CGTTTTACCGCGGCTGCTGGCACG-3'
+       Tm=65.4°C  GC=66.7%  len=24nt
+       ΔTm vs primers = +5.1°C
+
+  Amplicon size : 136 nt
+  P3 penalty    : 1.6413
+
+──────────────────────────────────────────────────────────────────────
+  Pair #0  ✓ PASS  |  ROI NC_028632.1:600-1100
+  ROI uniqueness score: 1.000
+
+  FWD  5'-CCCCGTCAATTCCTTTGAGTTT-3'
+       Tm=59.1°C  GC=45.5%  len=22nt
+
+  REV  5'-TTACTGGAGCAGCACTGACG-3'
+       Tm=60.0°C  GC=55.0%  len=20nt
+
+  PRB  5'-ACTCTTGCGAGCGTACTACTCAGGCGGG-3'
+       Tm=65.0°C  GC=60.7%  len=28nt
+       ΔTm vs primers = +5.5°C
+
+  Amplicon size : 193 nt
+  P3 penalty    : 2.9292
+
+──────────────────────────────────────────────────────────────────────
+  Pair #1  ✓ PASS  |  ROI NC_028632.1:600-1100
+  ROI uniqueness score: 1.000
+
+  FWD  5'-CCCCGTCAATTCCTTTGAGTTT-3'
+       Tm=59.1°C  GC=45.5%  len=22nt
+
+  REV  5'-GCACTGACGCTGAGATACGA-3'
+       Tm=59.9°C  GC=55.0%  len=20nt
+
+  PRB  5'-ACTCTTGCGAGCGTACTACTCAGGCGGG-3'
+       Tm=65.0°C  GC=60.7%  len=28nt
+       ΔTm vs primers = +5.5°C
+
+  Amplicon size : 182 nt
+  P3 penalty    : 2.9898
+
+──────────────────────────────────────────────────────────────────────
+  Pair #2  ✓ PASS  |  ROI NC_028632.1:600-1100
+  ROI uniqueness score: 1.000
+
+  FWD  5'-CCCCGTCAATTCCTTTGAGTTT-3'
+       Tm=59.1°C  GC=45.5%  len=22nt
+
+  REV  5'-AGCACTGACGCTGAGATACG-3'
+       Tm=59.9°C  GC=55.0%  len=20nt
+
+  PRB  5'-ACTCTTGCGAGCGTACTACTCAGGCGGG-3'
+       Tm=65.0°C  GC=60.7%  len=28nt
+       ΔTm vs primers = +5.5°C
+
+  Amplicon size : 183 nt
+  P3 penalty    : 2.9906
+
+──────────────────────────────────────────────────────────────────────
+  Pair #4  ✓ PASS  |  ROI NC_028632.1:600-1100
+  ROI uniqueness score: 1.000
+
+  FWD  5'-CCCCGTCAATTCCTTTGAGTTTC-3'
+       Tm=60.1°C  GC=47.8%  len=23nt
+
+  REV  5'-GCACTGACGCTGAGATACGA-3'
+       Tm=59.9°C  GC=55.0%  len=20nt
+
+  PRB  5'-ACTCTTGCGAGCGTACTACTCAGGCGGG-3'
+       Tm=65.0°C  GC=60.7%  len=28nt
+       ΔTm vs primers = +5.1°C
+
+  Amplicon size : 182 nt
+  P3 penalty    : 3.1564
+
+──────────────────────────────────────────────────────────────────────
+  Pair #3  ✗ FAIL  |  ROI NC_028632.1:1200-1700
+  ROI uniqueness score: 1.000
+
+  FWD  5'-CTGTCTTCCTCCACGTGACG-3'
+       Tm=60.4°C  GC=60.0%  len=20nt
+
+  REV  5'-AAGGCGAAGATCGGTAGCTG-3'
+       Tm=59.9°C  GC=55.0%  len=20nt
+
+  PRB  5'-ACGCTCTGTCAAGCTTGCGCTCATTGCA-3'
+       Tm=65.1°C  GC=53.6%  len=28nt
+       ΔTm vs primers = +5.0°C
+
+  Amplicon size : 145 nt
+  P3 penalty    : 0.4906
+  Constraint issues:
+    • Probe Tm delta 5.0°C outside [5.0,10.0]
+
+──────────────────────────────────────────────────────────────────────
+  Pair #1  ✗ FAIL  |  ROI NC_028632.1:300-800
+  ROI uniqueness score: 1.000
+
+  FWD  5'-AATTCCCATGGTGTGACGGG-3'
+       Tm=60.3°C  GC=55.0%  len=20nt
+
+  REV  5'-CTAGTAATCGCCGGTCAGCC-3'
+       Tm=60.3°C  GC=60.0%  len=20nt
+
+  PRB  5'-ACAAGGCCCGATGACTTATTCACCGCCGT-3'
+       Tm=65.3°C  GC=55.2%  len=29nt
+       ΔTm vs primers = +5.0°C
+
+  Amplicon size : 79 nt
+  P3 penalty    : 0.6421
+  Constraint issues:
+    • Probe Tm delta 5.0°C outside [5.0,10.0]
+
+──────────────────────────────────────────────────────────────────────
+  Pair #2  ✗ FAIL  |  ROI NC_028632.1:300-800
+  ROI uniqueness score: 1.000
+
+  FWD  5'-AATTCCCATGGTGTGACGGG-3'
+       Tm=60.3°C  GC=55.0%  len=20nt
+
+  REV  5'-CGCTAGTAATCGCCGGTCAG-3'
+       Tm=60.7°C  GC=60.0%  len=20nt
+
+  PRB  5'-ACAAGGCCCGATGACTTATTCACCGCCGT-3'
+       Tm=65.3°C  GC=55.2%  len=29nt
+       ΔTm vs primers = +4.8°C
+
+  Amplicon size : 81 nt
+  P3 penalty    : 0.9840
+  Constraint issues:
+    • Probe Tm delta 4.8°C outside [5.0,10.0]
+
+──────────────────────────────────────────────────────────────────────
+  Pair #4  ✗ FAIL  |  ROI NC_028632.1:300-800
+  ROI uniqueness score: 1.000
+
+  FWD  5'-AATTCCCATGGTGTGACGGG-3'
+       Tm=60.3°C  GC=55.0%  len=20nt
+
+  REV  5'-TAGTAATCGCCGGTCAGCCT-3'
+       Tm=60.8°C  GC=55.0%  len=20nt
+
+  PRB  5'-ACAAGGCCCGATGACTTATTCACCGCCGT-3'
+       Tm=65.3°C  GC=55.2%  len=29nt
+       ΔTm vs primers = +4.8°C
+
+  Amplicon size : 78 nt
+  P3 penalty    : 1.0776
+  Constraint issues:
+    • Probe Tm delta 4.8°C outside [5.0,10.0]
+
+──────────────────────────────────────────────────────────────────────
+  Pair #3  ✗ FAIL  |  ROI NC_028632.1:600-1100
+  ROI uniqueness score: 1.000
+
+  FWD  5'-CCCCGTCAATTCCTTTGAGTTTC-3'
+       Tm=60.1°C  GC=47.8%  len=23nt
+
+  REV  5'-TTACTGGAGCAGCACTGACG-3'
+       Tm=60.0°C  GC=55.0%  len=20nt
+
+  PRB  5'-ACTCTTGCGAGCGTACTACTCAGGCGGG-3'
+       Tm=65.0°C  GC=60.7%  len=28nt
+       ΔTm vs primers = +5.0°C
+
+  Amplicon size : 193 nt
+  P3 penalty    : 3.0958
+  Constraint issues:
+    • Probe Tm delta 5.0°C outside [5.0,10.0]

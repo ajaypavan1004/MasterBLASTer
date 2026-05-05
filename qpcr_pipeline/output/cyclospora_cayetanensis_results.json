@@ -1,0 +1,1777 @@
+{
+  "pipeline": "qpcr_primer_pipeline",
+  "version": "1.0.0",
+  "timestamp": "2026-05-05T15:18:21.750199Z",
+  "target_organism": "Cyclospora cayetanensis",
+  "n_sets": 25,
+  "primer_sets": [
+    {
+      "pair_index": 0,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 1200,
+        "end": 1700,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "AAGCTGTCTTCCTCCACGTG",
+          "tm": 59.97,
+          "gc": 55.0,
+          "length": 20,
+          "start": 145
+        },
+        "reverse": {
+          "sequence": "AAGGCGAAGATCGGTAGCTG",
+          "tm": 59.9,
+          "gc": 55.0,
+          "length": 20,
+          "start": 292
+        },
+        "probe": {
+          "sequence": "ACGCTCTGTCAAGCTTGCGCTCATTGCA",
+          "tm": 65.12,
+          "gc": 53.6,
+          "length": 28,
+          "start": 168
+        }
+      },
+      "amplicon_size": 148,
+      "primer3_penalty": 0.1373,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "11",
+              "organism": "PV389899.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 40.0,
+              "evalue": 3.12917,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "21",
+              "organism": "PQ357186.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "19",
+              "organism": "PQ835031.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "18",
+              "organism": "PV053000.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "17",
+              "organism": "PV053001.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "13",
+              "organism": "PV053005.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "12",
+              "organism": "PV389898.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "10",
+              "organism": "PZ176719.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "4",
+              "organism": "PX741100.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "3",
+              "organism": "PX741101.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            }
+          ]
+        },
+        "reverse_primer": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "12",
+              "organism": "PV389898.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 40.0,
+              "evalue": 3.12917,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "11",
+              "organism": "PV389899.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 40.0,
+              "evalue": 3.12917,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "29",
+              "organism": "PP930934.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "28",
+              "organism": "PP930935.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "27",
+              "organism": "PP930936.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "26",
+              "organism": "PQ288520.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "25",
+              "organism": "PQ288521.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "24",
+              "organism": "PQ288522.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "23",
+              "organism": "PQ288523.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "6",
+              "organism": "PX496091.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            }
+          ]
+        },
+        "probe": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "12",
+              "organism": "PV389898.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 28.6,
+              "evalue": 5.40494,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "11",
+              "organism": "PV389899.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 28.6,
+              "evalue": 5.40494,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "20",
+              "organism": "PQ357187.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 25.0,
+              "evalue": 21.3569,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "16",
+              "organism": "PV053002.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 25.0,
+              "evalue": 21.3569,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "15",
+              "organism": "PV053003.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 25.0,
+              "evalue": 21.3569,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "14",
+              "organism": "PV053004.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 25.0,
+              "evalue": 21.3569,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "4",
+              "organism": "PX741100.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 25.0,
+              "evalue": 21.3569,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "3",
+              "organism": "PX741101.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 25.0,
+              "evalue": 21.3569,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "2",
+              "organism": "PX741102.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 25.0,
+              "evalue": 21.3569,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "1",
+              "organism": "PX741103.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 25.0,
+              "evalue": 21.3569,
+              "is_target": true
+            }
+          ]
+        },
+        "overall_pass": true
+      }
+    },
+    {
+      "pair_index": 1,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 1200,
+        "end": 1700,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "AAGCTGTCTTCCTCCACGTG",
+          "tm": 59.97,
+          "gc": 55.0,
+          "length": 20,
+          "start": 145
+        },
+        "reverse": {
+          "sequence": "GAAGATCGGTAGCTGCCCTG",
+          "tm": 60.25,
+          "gc": 60.0,
+          "length": 20,
+          "start": 287
+        },
+        "probe": {
+          "sequence": "ACGCTCTGTCAAGCTTGCGCTCATTGCA",
+          "tm": 65.12,
+          "gc": 53.6,
+          "length": 28,
+          "start": 168
+        }
+      },
+      "amplicon_size": 143,
+      "primer3_penalty": 0.2837,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "11",
+              "organism": "PV389899.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 40.0,
+              "evalue": 3.12917,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "21",
+              "organism": "PQ357186.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "19",
+              "organism": "PQ835031.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "18",
+              "organism": "PV053000.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "17",
+              "organism": "PV053001.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "13",
+              "organism": "PV053005.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "12",
+              "organism": "PV389898.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "10",
+              "organism": "PZ176719.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "4",
+              "organism": "PX741100.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "3",
+              "organism": "PX741101.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            }
+          ]
+        },
+        "reverse_primer": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "29",
+              "organism": "PP930934.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "28",
+              "organism": "PP930935.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "27",
+              "organism": "PP930936.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "26",
+              "organism": "PQ288520.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "25",
+              "organism": "PQ288521.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "24",
+              "organism": "PQ288522.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "23",
+              "organism": "PQ288523.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "12",
+              "organism": "PV389898.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "11",
+              "organism": "PV389899.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "6",
+              "organism": "PX496091.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 35.0,
+              "evalue": 12.3645,
+              "is_target": true
+            }
+          ]
+        },
+        "probe": {
+          "status": "ok",
+          "specific": true,
+          "top_hits": [
+            {
+              "rank": 1,
+              "accession": "12",
+              "organism": "PV389898.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 28.6,
+              "evalue": 5.40494,
+              "is_target": true
+            },
+            {
+              "rank": 2,
+              "accession": "11",
+              "organism": "PV389899.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 28.6,
+              "evalue": 5.40494,
+              "is_target": true
+            },
+            {
+              "rank": 3,
+              "accession": "20",
+              "organism": "PQ357187.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 25.0,
+              "evalue": 21.3569,
+              "is_target": true
+            },
+            {
+              "rank": 4,
+              "accession": "16",
+              "organism": "PV053002.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 25.0,
+              "evalue": 21.3569,
+              "is_target": true
+            },
+            {
+              "rank": 5,
+              "accession": "15",
+              "organism": "PV053003.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 25.0,
+              "evalue": 21.3569,
+              "is_target": true
+            },
+            {
+              "rank": 6,
+              "accession": "14",
+              "organism": "PV053004.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 25.0,
+              "evalue": 21.3569,
+              "is_target": true
+            },
+            {
+              "rank": 7,
+              "accession": "4",
+              "organism": "PX741100.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 25.0,
+              "evalue": 21.3569,
+              "is_target": true
+            },
+            {
+              "rank": 8,
+              "accession": "3",
+              "organism": "PX741101.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 25.0,
+              "evalue": 21.3569,
+              "is_target": true
+            },
+            {
+              "rank": 9,
+              "accession": "2",
+              "organism": "PX741102.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 25.0,
+              "evalue": 21.3569,
+              "is_target": true
+            },
+            {
+              "rank": 10,
+              "accession": "1",
+              "organism": "PX741103.1 Cyclospora",
+              "identity": 100.0,
+              "coverage": 25.0,
+              "evalue": 21.3569,
+              "is_target": true
+            }
+          ]
+        },
+        "overall_pass": true
+      }
+    },
+    {
+      "pair_index": 2,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 1200,
+        "end": 1700,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "GTCTTCCTCCACGTGACGAC",
+          "tm": 60.39,
+          "gc": 60.0,
+          "length": 20,
+          "start": 150
+        },
+        "reverse": {
+          "sequence": "AAGGCGAAGATCGGTAGCTG",
+          "tm": 59.9,
+          "gc": 55.0,
+          "length": 20,
+          "start": 292
+        },
+        "probe": {
+          "sequence": "GCAGAATATTCCCCACTGCAGCCTCCCGT",
+          "tm": 65.38,
+          "gc": 58.6,
+          "length": 29,
+          "start": 193
+        }
+      },
+      "amplicon_size": 143,
+      "primer3_penalty": 0.4902,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 0,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 0,
+        "end": 500,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "TTTATCCAGCCGCACCTTCC",
+          "tm": 60.39,
+          "gc": 55.0,
+          "length": 20,
+          "start": 240
+        },
+        "reverse": {
+          "sequence": "TAATCGCCGGTCAGCCTTAC",
+          "tm": 59.9,
+          "gc": 55.0,
+          "length": 20,
+          "start": 413
+        },
+        "probe": {
+          "sequence": "TCCCATGGTGTGACGGGCGGTGTGT",
+          "tm": 65.96,
+          "gc": 64.0,
+          "length": 25,
+          "start": 342
+        }
+      },
+      "amplicon_size": 174,
+      "primer3_penalty": 0.4974,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 1,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 0,
+        "end": 500,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "TTTATCCAGCCGCACCTTCC",
+          "tm": 60.39,
+          "gc": 55.0,
+          "length": 20,
+          "start": 240
+        },
+        "reverse": {
+          "sequence": "GTAATCGCCGGTCAGCCTTA",
+          "tm": 59.9,
+          "gc": 55.0,
+          "length": 20,
+          "start": 414
+        },
+        "probe": {
+          "sequence": "TCCCATGGTGTGACGGGCGGTGTGT",
+          "tm": 65.96,
+          "gc": 64.0,
+          "length": 25,
+          "start": 342
+        }
+      },
+      "amplicon_size": 175,
+      "primer3_penalty": 0.4974,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 4,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 1200,
+        "end": 1700,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "AAGCTGTCTTCCTCCACGTG",
+          "tm": 59.97,
+          "gc": 55.0,
+          "length": 20,
+          "start": 145
+        },
+        "reverse": {
+          "sequence": "GAGGCTGCAGTGGGGAATAT",
+          "tm": 59.52,
+          "gc": 55.0,
+          "length": 20,
+          "start": 217
+        },
+        "probe": {
+          "sequence": "ACGCTCTGTCAAGCTTGCGCTCATTGCA",
+          "tm": 65.12,
+          "gc": 53.6,
+          "length": 28,
+          "start": 168
+        }
+      },
+      "amplicon_size": 73,
+      "primer3_penalty": 0.51,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 2,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 0,
+        "end": 500,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "AATTCCCATGGTGTGACGGG",
+          "tm": 60.32,
+          "gc": 55.0,
+          "length": 20,
+          "start": 339
+        },
+        "reverse": {
+          "sequence": "ATCGCTAGTAATCGCCGGTC",
+          "tm": 59.76,
+          "gc": 55.0,
+          "length": 20,
+          "start": 421
+        },
+        "probe": {
+          "sequence": "ACAAGGCCCGATGACTTATTCACCGCCGT",
+          "tm": 65.29,
+          "gc": 55.2,
+          "length": 29,
+          "start": 367
+        }
+      },
+      "amplicon_size": 83,
+      "primer3_penalty": 0.5638,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 0,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 300,
+        "end": 800,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "AATTCCCATGGTGTGACGGG",
+          "tm": 60.32,
+          "gc": 55.0,
+          "length": 20,
+          "start": 39
+        },
+        "reverse": {
+          "sequence": "ATCGCTAGTAATCGCCGGTC",
+          "tm": 59.76,
+          "gc": 55.0,
+          "length": 20,
+          "start": 121
+        },
+        "probe": {
+          "sequence": "ACAAGGCCCGATGACTTATTCACCGCCGT",
+          "tm": 65.29,
+          "gc": 55.2,
+          "length": 29,
+          "start": 67
+        }
+      },
+      "amplicon_size": 83,
+      "primer3_penalty": 0.5638,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 3,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 0,
+        "end": 500,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "TTTATCCAGCCGCACCTTCC",
+          "tm": 60.39,
+          "gc": 55.0,
+          "length": 20,
+          "start": 240
+        },
+        "reverse": {
+          "sequence": "ATCGCTAGTAATCGCCGGTC",
+          "tm": 59.76,
+          "gc": 55.0,
+          "length": 20,
+          "start": 421
+        },
+        "probe": {
+          "sequence": "TCCCATGGTGTGACGGGCGGTGTGT",
+          "tm": 65.96,
+          "gc": 64.0,
+          "length": 25,
+          "start": 342
+        }
+      },
+      "amplicon_size": 182,
+      "primer3_penalty": 0.6342,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 4,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 0,
+        "end": 500,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "CGCACCTTCCAGTACAGCTA",
+          "tm": 59.47,
+          "gc": 55.0,
+          "length": 20,
+          "start": 250
+        },
+        "reverse": {
+          "sequence": "TAATCGCCGGTCAGCCTTAC",
+          "tm": 59.9,
+          "gc": 55.0,
+          "length": 20,
+          "start": 413
+        },
+        "probe": {
+          "sequence": "TCCCATGGTGTGACGGGCGGTGTGT",
+          "tm": 65.96,
+          "gc": 64.0,
+          "length": 25,
+          "start": 342
+        }
+      },
+      "amplicon_size": 164,
+      "primer3_penalty": 0.6343,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 3,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 300,
+        "end": 800,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "AATTCCCATGGTGTGACGGG",
+          "tm": 60.32,
+          "gc": 55.0,
+          "length": 20,
+          "start": 39
+        },
+        "reverse": {
+          "sequence": "AATCGCTAGTAATCGCCGGT",
+          "tm": 59.33,
+          "gc": 50.0,
+          "length": 20,
+          "start": 122
+        },
+        "probe": {
+          "sequence": "ACAAGGCCCGATGACTTATTCACCGCCGT",
+          "tm": 65.29,
+          "gc": 55.2,
+          "length": 29,
+          "start": 67
+        }
+      },
+      "amplicon_size": 84,
+      "primer3_penalty": 0.9957,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 0,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 900,
+        "end": 1400,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "GCTTTACGCCCAGTAATTCCG",
+          "tm": 59.67,
+          "gc": 52.4,
+          "length": 21,
+          "start": 311
+        },
+        "reverse": {
+          "sequence": "CACGTGGAGGAAGACAGCTT",
+          "tm": 59.97,
+          "gc": 55.0,
+          "length": 20,
+          "start": 464
+        },
+        "probe": {
+          "sequence": "CCCCGTTTTACCGCGGCTGCTGGCA",
+          "tm": 67.64,
+          "gc": 68.0,
+          "length": 25,
+          "start": 347
+        }
+      },
+      "amplicon_size": 154,
+      "primer3_penalty": 1.3637,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 1,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 900,
+        "end": 1400,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "CGCTTTACGCCCAGTAATTCC",
+          "tm": 59.67,
+          "gc": 52.4,
+          "length": 21,
+          "start": 310
+        },
+        "reverse": {
+          "sequence": "CACGTGGAGGAAGACAGCTT",
+          "tm": 59.97,
+          "gc": 55.0,
+          "length": 20,
+          "start": 464
+        },
+        "probe": {
+          "sequence": "CCCCGTTTTACCGCGGCTGCTGGCA",
+          "tm": 67.64,
+          "gc": 68.0,
+          "length": 25,
+          "start": 347
+        }
+      },
+      "amplicon_size": 155,
+      "primer3_penalty": 1.3637,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 2,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 900,
+        "end": 1400,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "TCCGGATAACGCTTGTATCCC",
+          "tm": 59.66,
+          "gc": 52.4,
+          "length": 21,
+          "start": 328
+        },
+        "reverse": {
+          "sequence": "CACGTGGAGGAAGACAGCTT",
+          "tm": 59.97,
+          "gc": 55.0,
+          "length": 20,
+          "start": 464
+        },
+        "probe": {
+          "sequence": "CCGTTTTACCGCGGCTGCTGGCACG",
+          "tm": 66.85,
+          "gc": 68.0,
+          "length": 25,
+          "start": 349
+        }
+      },
+      "amplicon_size": 137,
+      "primer3_penalty": 1.3762,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 3,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 900,
+        "end": 1400,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "TTTACGCCCAGTAATTCCGGA",
+          "tm": 59.45,
+          "gc": 47.6,
+          "length": 21,
+          "start": 313
+        },
+        "reverse": {
+          "sequence": "CACGTGGAGGAAGACAGCTT",
+          "tm": 59.97,
+          "gc": 55.0,
+          "length": 20,
+          "start": 464
+        },
+        "probe": {
+          "sequence": "CCCCGTTTTACCGCGGCTGCTGGCA",
+          "tm": 67.64,
+          "gc": 68.0,
+          "length": 25,
+          "start": 347
+        }
+      },
+      "amplicon_size": 152,
+      "primer3_penalty": 1.5882,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 4,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 900,
+        "end": 1400,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "CCGGATAACGCTTGTATCCCC",
+          "tm": 60.61,
+          "gc": 57.1,
+          "length": 21,
+          "start": 329
+        },
+        "reverse": {
+          "sequence": "CACGTGGAGGAAGACAGCTT",
+          "tm": 59.97,
+          "gc": 55.0,
+          "length": 20,
+          "start": 464
+        },
+        "probe": {
+          "sequence": "CGTTTTACCGCGGCTGCTGGCACG",
+          "tm": 65.41,
+          "gc": 66.7,
+          "length": 24,
+          "start": 350
+        }
+      },
+      "amplicon_size": 136,
+      "primer3_penalty": 1.6413,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 0,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 600,
+        "end": 1100,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "CCCCGTCAATTCCTTTGAGTTT",
+          "tm": 59.11,
+          "gc": 45.5,
+          "length": 22,
+          "start": 259
+        },
+        "reverse": {
+          "sequence": "TTACTGGAGCAGCACTGACG",
+          "tm": 60.04,
+          "gc": 55.0,
+          "length": 20,
+          "start": 451
+        },
+        "probe": {
+          "sequence": "ACTCTTGCGAGCGTACTACTCAGGCGGG",
+          "tm": 65.04,
+          "gc": 60.7,
+          "length": 28,
+          "start": 282
+        }
+      },
+      "amplicon_size": 193,
+      "primer3_penalty": 2.9292,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 1,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 600,
+        "end": 1100,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "CCCCGTCAATTCCTTTGAGTTT",
+          "tm": 59.11,
+          "gc": 45.5,
+          "length": 22,
+          "start": 259
+        },
+        "reverse": {
+          "sequence": "GCACTGACGCTGAGATACGA",
+          "tm": 59.9,
+          "gc": 55.0,
+          "length": 20,
+          "start": 440
+        },
+        "probe": {
+          "sequence": "ACTCTTGCGAGCGTACTACTCAGGCGGG",
+          "tm": 65.04,
+          "gc": 60.7,
+          "length": 28,
+          "start": 282
+        }
+      },
+      "amplicon_size": 182,
+      "primer3_penalty": 2.9898,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 2,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 600,
+        "end": 1100,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "CCCCGTCAATTCCTTTGAGTTT",
+          "tm": 59.11,
+          "gc": 45.5,
+          "length": 22,
+          "start": 259
+        },
+        "reverse": {
+          "sequence": "AGCACTGACGCTGAGATACG",
+          "tm": 59.9,
+          "gc": 55.0,
+          "length": 20,
+          "start": 441
+        },
+        "probe": {
+          "sequence": "ACTCTTGCGAGCGTACTACTCAGGCGGG",
+          "tm": 65.04,
+          "gc": 60.7,
+          "length": 28,
+          "start": 282
+        }
+      },
+      "amplicon_size": 183,
+      "primer3_penalty": 2.9906,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 4,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 600,
+        "end": 1100,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "CCCCGTCAATTCCTTTGAGTTTC",
+          "tm": 60.06,
+          "gc": 47.8,
+          "length": 23,
+          "start": 259
+        },
+        "reverse": {
+          "sequence": "GCACTGACGCTGAGATACGA",
+          "tm": 59.9,
+          "gc": 55.0,
+          "length": 20,
+          "start": 440
+        },
+        "probe": {
+          "sequence": "ACTCTTGCGAGCGTACTACTCAGGCGGG",
+          "tm": 65.04,
+          "gc": 60.7,
+          "length": 28,
+          "start": 282
+        }
+      },
+      "amplicon_size": 182,
+      "primer3_penalty": 3.1564,
+      "passed_constraints": true,
+      "constraint_notes": [],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 3,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 1200,
+        "end": 1700,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "CTGTCTTCCTCCACGTGACG",
+          "tm": 60.39,
+          "gc": 60.0,
+          "length": 20,
+          "start": 148
+        },
+        "reverse": {
+          "sequence": "AAGGCGAAGATCGGTAGCTG",
+          "tm": 59.9,
+          "gc": 55.0,
+          "length": 20,
+          "start": 292
+        },
+        "probe": {
+          "sequence": "ACGCTCTGTCAAGCTTGCGCTCATTGCA",
+          "tm": 65.12,
+          "gc": 53.6,
+          "length": 28,
+          "start": 168
+        }
+      },
+      "amplicon_size": 145,
+      "primer3_penalty": 0.4906,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "Probe Tm delta 5.0\u00b0C outside [5.0,10.0]"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 1,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 300,
+        "end": 800,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "AATTCCCATGGTGTGACGGG",
+          "tm": 60.32,
+          "gc": 55.0,
+          "length": 20,
+          "start": 39
+        },
+        "reverse": {
+          "sequence": "CTAGTAATCGCCGGTCAGCC",
+          "tm": 60.32,
+          "gc": 60.0,
+          "length": 20,
+          "start": 117
+        },
+        "probe": {
+          "sequence": "ACAAGGCCCGATGACTTATTCACCGCCGT",
+          "tm": 65.29,
+          "gc": 55.2,
+          "length": 29,
+          "start": 67
+        }
+      },
+      "amplicon_size": 79,
+      "primer3_penalty": 0.6421,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "Probe Tm delta 5.0\u00b0C outside [5.0,10.0]"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 2,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 300,
+        "end": 800,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "AATTCCCATGGTGTGACGGG",
+          "tm": 60.32,
+          "gc": 55.0,
+          "length": 20,
+          "start": 39
+        },
+        "reverse": {
+          "sequence": "CGCTAGTAATCGCCGGTCAG",
+          "tm": 60.66,
+          "gc": 60.0,
+          "length": 20,
+          "start": 119
+        },
+        "probe": {
+          "sequence": "ACAAGGCCCGATGACTTATTCACCGCCGT",
+          "tm": 65.29,
+          "gc": 55.2,
+          "length": 29,
+          "start": 67
+        }
+      },
+      "amplicon_size": 81,
+      "primer3_penalty": 0.984,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "Probe Tm delta 4.8\u00b0C outside [5.0,10.0]"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 4,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 300,
+        "end": 800,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "AATTCCCATGGTGTGACGGG",
+          "tm": 60.32,
+          "gc": 55.0,
+          "length": 20,
+          "start": 39
+        },
+        "reverse": {
+          "sequence": "TAGTAATCGCCGGTCAGCCT",
+          "tm": 60.75,
+          "gc": 55.0,
+          "length": 20,
+          "start": 116
+        },
+        "probe": {
+          "sequence": "ACAAGGCCCGATGACTTATTCACCGCCGT",
+          "tm": 65.29,
+          "gc": 55.2,
+          "length": 29,
+          "start": 67
+        }
+      },
+      "amplicon_size": 78,
+      "primer3_penalty": 1.0776,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "Probe Tm delta 4.8\u00b0C outside [5.0,10.0]"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    },
+    {
+      "pair_index": 3,
+      "roi": {
+        "source_id": "NC_028632.1",
+        "start": 600,
+        "end": 1100,
+        "uniqueness_score": 1.0
+      },
+      "primers": {
+        "forward": {
+          "sequence": "CCCCGTCAATTCCTTTGAGTTTC",
+          "tm": 60.06,
+          "gc": 47.8,
+          "length": 23,
+          "start": 259
+        },
+        "reverse": {
+          "sequence": "TTACTGGAGCAGCACTGACG",
+          "tm": 60.04,
+          "gc": 55.0,
+          "length": 20,
+          "start": 451
+        },
+        "probe": {
+          "sequence": "ACTCTTGCGAGCGTACTACTCAGGCGGG",
+          "tm": 65.04,
+          "gc": 60.7,
+          "length": 28,
+          "start": 282
+        }
+      },
+      "amplicon_size": 193,
+      "primer3_penalty": 3.0958,
+      "passed_constraints": false,
+      "constraint_notes": [
+        "Probe Tm delta 5.0\u00b0C outside [5.0,10.0]"
+      ],
+      "blast": {
+        "forward_primer": {
+          "status": "not_run"
+        },
+        "reverse_primer": {
+          "status": "not_run"
+        },
+        "probe": {
+          "status": "not_run"
+        },
+        "overall_pass": null
+      }
+    }
+  ]
+}
