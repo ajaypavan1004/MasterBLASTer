@@ -127,41 +127,24 @@ def build_local_db(
     if api_key:
         Entrez.api_key = api_key
 
+    from .genome_fetcher import search_taxon_accessions, fetch_sequences, get_close_relatives
+
     all_records = []
 
-    # Fetch target sequences
+    # Fetch target sequences using the robust genome_fetcher logic
     logger.info("Fetching %d target sequences for local db...", n_target)
-    try:
-        handle = Entrez.esearch(db="nucleotide", term=f'"{organism}"[Organism]', retmax=n_target)
-        ids = Entrez.read(handle)["IdList"]
-        handle.close()
-        if ids:
-            handle = Entrez.efetch(db="nucleotide", id=",".join(ids), rettype="fasta", retmode="text")
-            all_records.extend(list(SeqIO.parse(handle, "fasta")))
-            handle.close()
-            logger.info("  Got %d target sequences", len(all_records))
-    except Exception as exc:
-        logger.warning("Target fetch failed: %s", exc)
+    ids = search_taxon_accessions(organism, max_seqs=n_target, email=email, api_key=api_key)
+    if ids:
+        recs = fetch_sequences(ids, email=email, api_key=api_key)
+        all_records.extend(recs)
+        logger.info("  Got %d target sequences", len(recs))
 
-    # Fetch relative sequences (for specificity testing)
-    parts = organism.strip().split()
-    if len(parts) >= 2:
-        genus = parts[0]
-        logger.info("Fetching relative sequences (genus %s) for local db...", genus)
-        try:
-            time.sleep(0.5)
-            query = f'"{genus}"[Organism] NOT "{organism}"[Organism]'
-            handle = Entrez.esearch(db="nucleotide", term=query, retmax=n_relatives)
-            ids = Entrez.read(handle)["IdList"]
-            handle.close()
-            if ids:
-                handle = Entrez.efetch(db="nucleotide", id=",".join(ids), rettype="fasta", retmode="text")
-                rel_recs = list(SeqIO.parse(handle, "fasta"))
-                all_records.extend(rel_recs)
-                handle.close()
-                logger.info("  Got %d relative sequences", len(rel_recs))
-        except Exception as exc:
-            logger.warning("Relative fetch failed: %s", exc)
+    # Fetch relative sequences
+    logger.info("Fetching relative sequences for local db...")
+    rel_recs = get_close_relatives(organism, n=n_relatives, email=email, api_key=api_key)
+    all_records.extend(rel_recs)
+    if rel_recs:
+        logger.info("  Got %d relative sequences", len(rel_recs))
 
     if not all_records:
         logger.error("No sequences fetched — cannot build local db")
