@@ -1,0 +1,94 @@
+======================================================================
+  qPCR Primer/Probe Pipeline Report
+  Target: Cyclospora cayetanensis
+  Generated: 2026-05-05 09:46 UTC
+======================================================================
+
+Total primer sets designed : 5
+Passed ALL constraints     : 0
+BLAST-validated            : 0
+
+──────────────────────────────────────────────────────────────────────
+  Pair #0  ✓ PASS  |  ROI Cyclospora_cayetanensis_18S_test:800-1200
+  ROI uniqueness score: 0.879
+
+  FWD  5'-GGCCGTTCTTAGTTGGTGGA-3'
+       Tm=60.0°C  GC=55.0%  len=20nt
+
+  REV  5'-TTGCGAGATGTCTTCGGTGA-3'
+       Tm=59.4°C  GC=50.0%  len=20nt
+
+  PRB  5'-GCGACTTCGGGAGGGACTTTGGAGTGGAG-3'
+       Tm=65.3°C  GC=62.1%  len=29nt
+       ΔTm vs primers = +5.6°C
+
+  Amplicon size : 195 nt
+  P3 penalty    : 0.6368
+
+──────────────────────────────────────────────────────────────────────
+  Pair #1  ✓ PASS  |  ROI Cyclospora_cayetanensis_18S_test:800-1200
+  ROI uniqueness score: 0.879
+
+  FWD  5'-GAACGAGACTCTGGCATGCT-3'
+       Tm=60.1°C  GC=55.0%  len=20nt
+
+  REV  5'-TTGCGAGATGTCTTCGGTGA-3'
+       Tm=59.4°C  GC=50.0%  len=20nt
+
+  PRB  5'-GCGACTTCGGGAGGGACTTTGGAGTGGAG-3'
+       Tm=65.3°C  GC=62.1%  len=29nt
+       ΔTm vs primers = +5.5°C
+
+  Amplicon size : 148 nt
+  P3 penalty    : 0.7095
+
+──────────────────────────────────────────────────────────────────────
+  Pair #2  ✓ PASS  |  ROI Cyclospora_cayetanensis_18S_test:800-1200
+  ROI uniqueness score: 0.879
+
+  FWD  5'-ACGAACGAGACTCTGGCATG-3'
+       Tm=60.1°C  GC=55.0%  len=20nt
+
+  REV  5'-TTGCGAGATGTCTTCGGTGA-3'
+       Tm=59.4°C  GC=50.0%  len=20nt
+
+  PRB  5'-GCGACTTCGGGAGGGACTTTGGAGTGGAG-3'
+       Tm=65.3°C  GC=62.1%  len=29nt
+       ΔTm vs primers = +5.5°C
+
+  Amplicon size : 150 nt
+  P3 penalty    : 0.7101
+
+──────────────────────────────────────────────────────────────────────
+  Pair #3  ✓ PASS  |  ROI Cyclospora_cayetanensis_18S_test:800-1200
+  ROI uniqueness score: 0.879
+
+  FWD  5'-TGGCCGTTCTTAGTTGGTGG-3'
+       Tm=60.3°C  GC=55.0%  len=20nt
+
+  REV  5'-TTGCGAGATGTCTTCGGTGA-3'
+       Tm=59.4°C  GC=50.0%  len=20nt
+
+  PRB  5'-GCGACTTCGGGAGGGACTTTGGAGTGGAG-3'
+       Tm=65.3°C  GC=62.1%  len=29nt
+       ΔTm vs primers = +5.4°C
+
+  Amplicon size : 196 nt
+  P3 penalty    : 0.8516
+
+──────────────────────────────────────────────────────────────────────
+  Pair #4  ✓ PASS  |  ROI Cyclospora_cayetanensis_18S_test:800-1200
+  ROI uniqueness score: 0.879
+
+  FWD  5'-GGCCGTTCTTAGTTGGTGGA-3'
+       Tm=60.0°C  GC=55.0%  len=20nt
+
+  REV  5'-TGCGAGATGTCTTCGGTGAT-3'
+       Tm=59.2°C  GC=50.0%  len=20nt
+
+  PRB  5'-GCGACTTCGGGAGGGACTTTGGAGTGGAG-3'
+       Tm=65.3°C  GC=62.1%  len=29nt
+       ΔTm vs primers = +5.7°C
+
+  Amplicon size : 194 nt
+  P3 penalty    : 0.8534
