@@ -1,0 +1,4 @@
+biopython>=1.81
+primer3-py==2.3.0
+aiohttp>=3.9.0
+requests>=2.31.0
